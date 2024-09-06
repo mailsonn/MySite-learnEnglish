@@ -50,8 +50,79 @@ ul li, a{
     text-decoration: none;
 }  
 
-.geral {
+.content {
     height: 100vh;
+    margin:2rem  10rem;
+    box-shadow: 0px 0px 2px rgba(0,0,0.17);
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container {
+    margin: 20px 1.5rem;
+    display: flex;
+   justify-content: space-around;
+  
+}
+
+.text{
+    flex:50%;
+    border: solid 2px green;
+}
+
+.images{
+    flex:50%;
+    border: solid 2px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-image{
+    height: 500px;
+    width: 400px;
+    border: 2px black solid;
+    background-color: antiquewhite;
+}
+
+h1, h2{
+    display: inline-block;
+    font-family: "Martian Mono", monospace;
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+
+p{
+    font-family: "Martian Mono", monospace;
+    font-size: 1rem;
+    margin: 1rem 0 1.5rem 0;
+}
+
+.space-buttom{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.more-info{
+   background-image: linear-gradient(to bottom right, rgb(153, 153, 245), white);
+   font-family: "Bungee Tint", sans-serif;
+   font-size: 1rem;
+    padding: 16px 40px;
+    border-radius: 8px;
+    border: 2px solid rgb(153, 153, 245);
+}
+
+.advantages{
+    height: 100vh;
+    margin:2rem  10rem;
+    box-shadow: 0px 0px 2px rgba(0,0,0.17);
+}
+
+footer{
+    height: 200px;
     margin:2rem  10rem;
     box-shadow: 0px 0px 2px rgba(0,0,0.17);
 }
