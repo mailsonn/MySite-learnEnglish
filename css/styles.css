@@ -9,7 +9,7 @@
 }
 
 header{
-    margin:0  10rem;
+    margin:0  7rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -42,16 +42,9 @@ ul li {
     list-style-type: none;
     padding-right: 1rem;
     font-family: "Martian Mono", monospace;
-    font-size: 1rem; 
-    cursor: pointer; 
-    font-weight: 500;
+    font-size: 1rem;
+    cursor:pointer;
 }
-
-ul li:hover{
-    color: rgb(207, 6, 6);
-    transition: 0.1s;
-}
-
 
 ul li, a{
     text-decoration: none;
@@ -59,17 +52,16 @@ ul li, a{
 
 .content {
     height: 100vh;
-    margin:2rem  10rem;
+    margin:2rem  7rem;
     box-shadow: 0px 0px 2px rgba(0,0,0.17);
     display: flex;
-    justify-content: center;
-   
+    justify-content: center; 
 }
 
 .container {
     margin: 20px 1.5rem;
     display: flex;
-   justify-content: space-around;
+	justify-content: space-around;
   
 }
 
@@ -101,16 +93,14 @@ h1, h2{
 }
 
 p{
-    font-family: "Martian Mono", monospace;
+    font-family: "Martian Mono", monospace; 
     font-size: 1rem;
-    margin: 1rem 0 1.5rem 0;
+    margin: 1rem 0 1.5rem;
 }
 
 .space-buttom{
     display: flex;
     justify-content: center;
-
-
 }
 
 .more-info{
@@ -122,14 +112,71 @@ p{
     border: 2px solid rgb(153, 153, 245);
 }
 
-.advantages{
-    height: 100vh;
-    margin:2rem  10rem;
+.scroll{
+    height: 960px;
+    margin:2rem  7rem;
     box-shadow: 0px 0px 2px rgba(0,0,0.17);
+	
+	display: flex;
+	justify-content: space-around;
+}
+
+.second-container{
+	
+}
+
+
+h3 {
+	text-align:center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+	font-family: "Martian Mono", monospace;
+}
+
+.interview{
+	display: flex;
+	justify-content: space-around;
+	gap: 1.5rem;
+	
+}
+
+.interview > div:nth-child(1), .interview >  div:nth-child(2), .interview > div:nth-child(3){
+	height: 250px;
+	width: 320px;
+	border: solid 2px red;
+	border-radius: 6px;
+}
+
+.persons{
+	display: flex;
+	justify-content: space-around;
+	gap: 1.5rem;
+}
+
+.persons > div:nth-child(1), .persons >  div:nth-child(2), .persons > div:nth-child(3){
+	height: 250px;
+	width:320px;
+	border: solid 2px blue;
+	border-radius: 6px;
+}
+
+.songs{
+	display: flex;
+	justify-content: space-around;
+	gap: 1.5rem;
+}
+
+.songs > div:nth-child(1), .songs >  div:nth-child(2), .songs > div:nth-child(3){
+	height: 250px;
+	width:320px;
+	border: solid 2px green;
+	border-radius: 6px;
 }
 
 footer{
     height: 200px;
-    margin:2rem  10rem;
+    margin:2rem  7rem;
     box-shadow: 0px 0px 2px rgba(0,0,0.17);
+	
 }

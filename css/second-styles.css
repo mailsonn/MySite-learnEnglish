@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Dela+Gothic+One&family=Martian+Mono:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin:0  7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 2px rgba(0,0,0.17);
+    height: 2rem;
+    background-image: linear-gradient(to right bottom, rgb(224, 223, 230), rgb(250, 250, 250));
+}
+
+#img-logo{
+    margin-right: 10px;
+}
+
+.my-logo{
+    width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul li {
+    list-style-type: none;
+    padding-right: 1rem;
+    font-family: "Martian Mono", monospace;
+    font-size: 1rem;
+    cursor:pointer;
+}
+
+ul li, a{
+    text-decoration: none;
+}  
+
+.content {
+    height: 100vh;
+    margin:2rem  7rem;
+    box-shadow: 0px 0px 2px rgba(0,0,0.17);
+
+
+}
+
+.container {
+
+	display: flex;
+	justify-content: space-between;
+
+}
+.level{
+	margin-top:10px;
+	margin-left:10px;
+	background-image: linear-gradient(to bottom right, rgb(153, 153, 245), white);
+	 padding: 16px 40px;
+    border-radius: 8px;
+    border: 2px solid rgb(153, 153, 245);
+	font-family: "Bungee Tint", sans-serif;
+	font-size: 1rem;
+}
+
+.exchange{
+	background-image: linear-gradient(to bottom right, rgb(153, 153, 245), white);
+	padding: 2px 5px 2px 5px;
+    border-radius: 8px;
+    border: 2px solid rgb(153, 153, 245);
+	text-align: center;
+	vertical-align: center;
+}
+
+.aulas{
+	margin-top:2rem;
+	display:flex;
+	flex-flow: wrap row;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.aulas > div:nth-child(-n+6){
+	height: 250px;
+	width: 320px;
+	border: solid 2px red;
+	border-radius: 6px;
+	margin-bottom:1rem;
+}
+
+
+
+h1{
+    font-family: "Martian Mono", monospace;
+    font-size: 1rem;
+	text-align: center;
+}
+
+p{
+
+}
+
+
+
+.scroll{
+    height: 960px;
+    margin:2rem  7rem;
+    box-shadow: 0px 0px 2px rgba(0,0,0.17);
+
+}
+
+.second-container{
+	
+}
+
+
+
+footer{
+    height: 200px;
+    margin:2rem  7rem;
+    box-shadow: 0px 0px 2px rgba(0,0,0.17);
+	
+}
